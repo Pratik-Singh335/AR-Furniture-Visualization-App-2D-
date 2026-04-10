@@ -1,0 +1,151 @@
+name: myapp
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+  
+
+
+#------------------ Packages ------------------# 
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # Utility Packages  
+  intl: ^0.19.0
+  math_expressions: ^2.6.0
+  
+
+  # Icons
+  cupertino_icons: ^1.0.8
+  iconsax: ^0.0.8
+
+
+  # State Management
+  get: ^4.6.6
+  
+
+  # App Specific
+  badges: ^3.1.2
+  animate_do: ^3.3.4
+  supabase_flutter: ^2.8.4
+  image_picker: ^1.1.2
+  dotted_border: ^2.1.0
+  http: ^1.3.0
+  vector_math: ^2.1.4
+  augmented_reality_plugin: ^4.0.1
+  lottie: ^3.2.0
+  smooth_page_indicator: ^1.2.1
+  
+
+
+#------------------ /. Packages End ------------------# 
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  remove_alpha_ios: true
+  android: true
+  ios: true
+  image_path: "assets/logos/app_logo.png"
+
+flutter:
+  uses-material-design: true
+
+
+
+
+  #------------------ LOCAL ASSETS ------------------# 
+
+  assets:
+    - assets/icons/
+    - assets/logos/
+    - assets/images/
+    - assets/images/plants/
+
+
+
+
+  #------------------ LOCAL FONTS ------------------# 
+  
+  fonts:
+    - family: Pacifo Regular
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+    - family: FiraSans Regular
+      fonts:
+        - asset: fonts/FiraSans-Regular.ttf
+    - family: Notos Regular
+      fonts:
+        - asset: fonts/NotoSerif-Regular.ttf
+    - family: Protest Regular
+      fonts:
+        - asset: fonts/ProtestRiot-Regular.ttf
+    - family: Roboto Regular
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+    - family: Roboto Medium
+      fonts:
+        - asset: fonts/Roboto-Medium.ttf
+    - family: Roboto Bold
+      fonts:
+        - asset: fonts/Roboto-Bold.ttf
+    - family: Oswald Bold
+      fonts:
+        - asset: fonts/Oswald-Bold.ttf
+    - family: Teachers Regular
+      fonts:
+        - asset: fonts/Teachers-Regular.ttf
+    - family: Teachers SemiBold
+      fonts:
+        - asset: fonts/Teachers-SemiBold.ttf
+    - family: Teachers Bold
+      fonts:
+        - asset: fonts/Teachers-Bold.ttf 
+    - family: Outfit Regular
+      fonts:
+        - asset: fonts/Outfit-Regular.ttf
+    - family: Outfit Medium
+      fonts:
+        - asset: fonts/Outfit-Medium.ttf
+    - family: Outfit Bold
+      fonts:
+        - asset: fonts/Outfit-Bold.ttf
+    - family: Monster Bold
+      fonts:
+        - asset: fonts/Montserrat-Bold.otf
+    - family: Monster Regular
+      fonts:
+        - asset: fonts/Montserrat-Regular.ttf
+    - family: Monster Medium
+      fonts:
+        - asset: fonts/Montserrat-Medium.ttf
+    - family: Nunito Bold
+      fonts:
+        - asset: fonts/Nunito-Bold.ttf
+    - family: Nunito Regular
+      fonts:
+        - asset: fonts/Nunito-Regular.ttf
+    - family: Nunito SemiBold
+      fonts:
+        - asset: fonts/Nunito-SemiBold.ttf
+    - family: TrajanPro Regular
+      fonts:
+        - asset: fonts/TrajanPro-Regular.ttf
+    - family: TrajanPro Bold
+      fonts:
+        - asset: fonts/TrajanPro-Bold.otf
