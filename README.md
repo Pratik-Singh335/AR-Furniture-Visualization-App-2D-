@@ -81,5 +81,6 @@ This project is developed in collaboration with:
 ---
 
 ## Author
+**Nidhish Shinde**
 **Ali Ejaz**  
 **Pratik Singh**  
